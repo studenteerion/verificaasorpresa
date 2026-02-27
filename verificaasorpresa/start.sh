@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+
+sudo service apache2 start
+sudo service mariadb start
+
 set -euo pipefail
 
 cd "$(dirname "$0")"
